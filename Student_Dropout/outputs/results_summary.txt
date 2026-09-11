@@ -1,0 +1,20 @@
+
+FINAL RESULTS SUMMARY
+=====================
+Dataset      : UCI #697 Student Dropout (4,424 students)
+Split        : 80/20 stratified, random_state=42
+Final model  : Random Forest
+
+Test Results
+------------
+Accuracy     : 0.751
+Macro-F1     : 0.702
+ROC-AUC      : 0.887
+Dropout PR-AUC: 0.872
+Baseline F1  : 0.222
+
+Per-class F1
+------------
+Dropout  : 0.756
+Enrolled : 0.504
+Graduate : 0.846
